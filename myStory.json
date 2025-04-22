@@ -1,49 +1,49 @@
 {
-    "Title": "Campus Life on the West Side",
-    "Credits": "Created by Adam Smith (amsmith@ucsc.edu).",
-    "InitialLocation": "Kresge",
+    "Title": "Going to School",
+    "Credits": "Created by Adam Smith and Zander (amsmith@ucsc.edu).",
+    "InitialLocation": "Bedroom",
     "Locations": {
-        "Kresge": {
-            "Body": "This is Kresge College, lots of nice trees.",
+        "Bedroom": {
+            "Body": "This is your Bedroom.",
             "Choices": [
                 {
                     "Text": "South",
-                    "Target": "Porter"
+                    "Target": "LivingRoom"
                 }
             ]
         },
-        "Porter": {
-            "Body": "This is Porter College, the trees are nice here too.",
+        "LivingRoom": {
+            "Body": "This is LivingRoom has a couple paintings and a door",
             "Choices": [
                 {
                     "Text": "North",
-                    "Target": "Kresge"
+                    "Target": "Bedroom"
                 },
                 {
                     "Text": "South",
-                    "Target": "Rachel Carson"
+                    "Target": "Hallway"
                 }
             ]
         },
-        "Rachel Carson": {
-            "Body": "Rachel Carson College, more sun and fewer trees.",
+        "Hallway": {
+            "Body": "This is the hallway. No trees here",
             "Choices": [
                 {
                     "Text": "North",
-                    "Target": "Porter"
+                    "Target": "LivingRoom"
                 },
                 {
                     "Text": "South",
-                    "Target": "Oakes"
+                    "Target": "FrontDoor"
                 }
             ]
         },
-        "Oakes": {
-            "Body": "Oakes College, even the buildings have tree bark on them.",
+        "FrontDoor": {
+            "Body": "This is the front door. School lies beyond here",
             "Choices": [
                 {
                     "Text": "North",
-                    "Target": "Rachel Carson"
+                    "Target": "Hallway"
                 },
                 {
                     "Text": "South",
@@ -52,7 +52,7 @@
             ]
         },
         "Beyond": {
-            "Body": "Grass, don't forget to check for ticks!"
+            "Body": "Good luck at school today!"
         }
     }
 }
